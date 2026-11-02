@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "canoeisati-toolproto_jd268"
+name = "canoeisati-multinode_bandwidth_bottleneck_pattern_locate"
 version = "0.1.0"
 description = "用一组明示的正则规则扫描输入，报告工具调用协议工程师·多机通信的带宽瓶颈相关的命中行与片段"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://canoeisati.github.io"
-Repository = "https://github.com/canoeisati/toolproto_jd268"
-Issues = "https://github.com/canoeisati/toolproto_jd268/issues"
+Repository = "https://github.com/canoeisati/multinode_bandwidth_bottleneck_pattern_locate"
+Issues = "https://github.com/canoeisati/multinode_bandwidth_bottleneck_pattern_locate/issues"
 
 [project.scripts]
-toolproto_jd268 = "toolproto_jd268:main"
+multinode_bandwidth_bottleneck_pattern_locate = "multinode_bandwidth_bottleneck_pattern_locate:main"
 
 [tool.setuptools]
-py-modules = ["toolproto_jd268"]
+py-modules = ["multinode_bandwidth_bottleneck_pattern_locate"]
